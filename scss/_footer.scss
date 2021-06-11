@@ -1,0 +1,16 @@
+@import "base/variables";
+/*Footer*/
+.footer-container {
+    padding: 1em;
+    text-align: center;
+    background-color: nph($colors, 1);
+    color: nph($colors, 2);
+}
+.footer-social {
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+}
+.icon { 
+    font-size: 3em;
+    color: nph($colors, 2);
+}

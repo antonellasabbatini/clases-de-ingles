@@ -56,37 +56,65 @@
     <h1 class="title"> Clases de inglés</h1>
     <div class="title-decoration"></div>
     <section>
-        <p class="text">Ofrecemos diferentes clases según tus necesidades.</p>
+        <p class="secondary-title">Ofrecemos diferentes clases según tus necesidades:</p>
     </section>
-    <section>
-        <ul class="text">
-            <li>Inglés general</li>
-            <li>Inglés de negocios</li>
-            <li>Preparación de examenes internacionales</li>
-            <li>Capacitación a empresas</li>
-            <li>Clases de apoyo escolar y universitario</li>
-        </ul>
+    <section class="clases-container">
+        <div class="clases">
+        <div class="clases-item">
+            <div class="icon-clases"><i class="fas fa-book-reader"></i></div>
+            <p>INGLES GENERAL</p>
+        </div>
+        <div class="clases-item">
+            <div class="icon-clases"><i class="fas fa-book-reader"></i></div>
+            <p>INGLES DE NEGOCIOS</p>
+        </div>
+        <div class="clases-item">
+            <div class="icon-clases"><i class="fas fa-book-reader"></i></div>
+            <p>APOYO ESCOLAR Y UNIVERSITARIO</p>
+        </div>
+        <div class="clases-item">
+            <div class="icon-clases"><i class="fas fa-tasks"></i></div>
+            <p>PREPARACION DE EXAMENES INTERNACIONALES</p>
+        </div>
+        <div class="clases-item">
+            <div class="icon-clases"><i class="far fa-building"></i></div>
+            <p>CAPACITACIÓN A EMPRESAS</p>
+        </div>
+        <div class="clases-item">
+            <div class="icon-clases"><i class="far fa-comments"></i></div>
+            <p>CLASES DE CONVERSACION</p>
+        </div>
+        </div>
     </section>
-    <p>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Clases online</a>
-        <button class="btn btn-primary button-clases" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Clases presenciales</button>
-        </p>
-      <div class="row">
-        <div class="col">
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div class="card card-body">
-              Ofrecemos clases virtuales por Google Meet o Zoom.
+    <p class="secondary-title">Modalidad de las clases</p>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Clases online
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            Ofrecemos clases virtuales por Google Meet o Zoom.
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="collapse multi-collapse" id="multiCollapseExample2">
-            <div class="card card-body">
-              Ofrecemos clases presenciales en zona oeste del GBA (Haedo, Ramos Mejía, Ciudadela y Morón)
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             Clases presenciales 
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Ofrecemos clases presenciales en zona oeste del GBA (Haedo, Ramos Mejía, Ciudadela y Morón)
             </div>
           </div>
         </div>
-      </div>
+    </div>
+
+    
     </section>  
     <footer class="footer-container">
         <p class="footer-social">¡Seguinos en las redes sociales!</p>

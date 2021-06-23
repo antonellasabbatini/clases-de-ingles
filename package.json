@@ -12,5 +12,13 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonellasabbatini/clases-de-ingles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antonellasabbatini/clases-de-ingles/issues"
+  },
+  "homepage": "https://github.com/antonellasabbatini/clases-de-ingles#readme",
   "description": ""
 }

@@ -1,0 +1,191 @@
+/*Colores*/
+/*Header*/
+header {
+  background-color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 1);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  width: 100%;
+  position: fixed;
+}
+
+#menu ul {
+  text-align: right;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li:hover {
+  color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 6);
+  font-weight: bold;
+}
+#menu div div ul li a {
+  color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 2);
+  text-decoration: none;
+  margin: 0.5em;
+  text-align: right;
+  font-size: 1em;
+}
+
+/*Colores*/
+.about-us, .paragraph-index {
+  font-family: "Roboto", sans-serif;
+  font-size: 1, 5em;
+  text-decoration: none;
+}
+
+form div {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/*Body*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  padding-top: 3.5em;
+  padding: 3.5em 10em;
+  min-height: 100vh;
+}
+
+@media (max-width: 400px) {
+  .paragraph-index-container {
+    padding: 0 1em;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  .paragraph-index-container {
+    padding: 0 3em;
+  }
+}
+.image-index {
+  width: 50%;
+  height: 50%;
+}
+
+.logo-index {
+  width: 30%;
+  height: 30%;
+  margin-left: 1em;
+}
+
+.title {
+  color: color-1;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: bold;
+  padding: 3em 1em 0 0;
+  font-size: 25px;
+}
+
+.title-decoration {
+  width: 100%;
+  padding: 0.2em;
+  background-color: nph #48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 1;
+}
+
+.paragraph-index-container {
+  padding: 0em 10em;
+}
+
+.paragraph-index {
+  color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 5);
+  text-align: center;
+}
+
+.image-container {
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.discover-courses {
+  padding: 1em;
+  background-color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 3);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 74px;
+  color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 1);
+  font-size: 1.2em;
+}
+.discover-courses:hover {
+  padding: 1em 1.5em;
+}
+
+.text {
+  color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 5);
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  text-decoration: none;
+}
+
+.img-nosotros {
+  width: 13em;
+  height: 13em;
+  margin: 1em;
+}
+
+.linkedin {
+  color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 4);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: left;
+  padding: 0 1em;
+}
+
+.about-us-container {
+  padding: 3em;
+  border: 3em;
+  margin: 4em 8em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us {
+  padding: 1em;
+}
+
+/*Colores*/
+/*Footer*/
+.footer-container {
+  padding: 1em;
+  text-align: center;
+  background-color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 1);
+  color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 2);
+}
+
+.footer-social {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.icon {
+  font-size: 3em;
+  color: nph(#48005e, #c59fcb, #f8f32b, #105f5f, black, lavender, 2);
+}
+
+.paragraph-index, .about-us {
+  font-family: "Roboto", sans-serif;
+  font-size: 1, 5em;
+  text-decoration: none;
+}
+
+form div {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/*Contacto*/
+/*Colores*/
+
+/*# sourceMappingURL=style.css.map */
